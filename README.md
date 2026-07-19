@@ -1,13 +1,5 @@
 # Animal Tracker Long Range
 
-[![Version](https://img.shields.io/badge/version-1.1-brightgreen)](ModInfo.xml)
-[![Game](https://img.shields.io/badge/7%20Days%20To%20Die-3.0%2B-blue)](https://7daystodie.com)
-[![Mod](https://img.shields.io/badge/mod-XML%20only-orange)](Config/nav_objects.xml)
-
----
-
-## 📋 Description
-
 Increases the vanilla **Animal Tracker** on-screen icon detection range from **25 m to 100 m** in **7 Days to Die 3.0+**. Designed for players who disable the compass or play with minimal HUD. Also increases the offset of the icon above the creatures' heads so that they do not overlap their bodies.
 
 The default game behavior requires you to get very close before the icon appears. This can be inconvenient for players who:
