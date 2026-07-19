@@ -11,8 +11,6 @@ The default game behavior requires you to get very close before the icon appears
 
 > ⚠️ **Note:** This mod does **not** add new tracking mechanics and does **not** reveal animals on the map. It only increases the existing on-screen detection range of the vanilla Animal Tracker system.
 
----
-
 ## ✨ Features
 
 - ✅ Increases Animal Tracker icon visibility distance
@@ -21,8 +19,6 @@ The default game behavior requires you to get very close before the icon appears
 - ✅ Lightweight and performance friendly
 - ✅ Compatible with existing saves
 - ✅ Easy to install and remove
-
----
 
 ## 📥 Installation
 
@@ -48,16 +44,12 @@ The default game behavior requires you to get very close before the icon appears
 
 > ✅ No additional configuration is required.
 
----
-
 ## 🔧 Compatibility
 
 - ✅ Tested for **7 Days to Die 3.0**
 - ✅ Works in **singleplayer**
 - 🌐 For **multiplayer servers**, the mod must be installed on the server
 - ✅ Compatible with most mods **unless they also modify** `nav_objects.xml`
-
----
 
 ## ⚙️ Configuration
 
@@ -71,8 +63,6 @@ Config/nav_objects.xml
 
 and change the `max_distance` value to their preferred distance.
 
----
-
 ## 🗑️ Removal
 
 Simply delete:
@@ -84,8 +74,6 @@ Mods/AnimalTrackerLongRange
 from your game folder.
 
 > ✅ No save reset is required.
-
----
 
 ## 📜 Changelog
 
