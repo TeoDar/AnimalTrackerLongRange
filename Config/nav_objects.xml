@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- ================================================================
+         ДАЛЬНОСТЬ ОТРИСОВКИ
+         Стандарт: min_distance=0, max_distance=25
+         ================================================================ -->
+    <set xpath="//nav_object_class[@name='animaltracking_timid']/onscreen_settings/property[@name='min_distance']/@value">
+        5
+    </set>
+    <set xpath="//nav_object_class[@name='animaltracking_timid']/onscreen_settings/property[@name='max_distance']/@value">
+        100
+    </set>
+    <!-- ================================================================
+         СМЕЩЕНИЕ ИКОНОК НАД ЖИВОТНЫМИ (offset)
+         Формат: X,Y,Z (метры)
+         Стандартные значения указаны для каждого животного.
+         ================================================================ -->
+    <!-- Курица:     стандарт 0,0.45,0  →  новое 0,1.2,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_chicken']/onscreen_settings/property[@name='offset']/@value">
+        0,1.2,0
+    </set>
+    <!-- Кролик:     стандарт 0,0.45,0  →  новое 0,1.2,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_rabbit']/onscreen_settings/property[@name='offset']/@value">
+        0,1.2,0
+    </set>
+    <!-- Лань:       стандарт 0,1.6,0   →  новое 0,2.1,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_doe']/onscreen_settings/property[@name='offset']/@value">
+        0,2.1,0
+    </set>
+    <!-- Олень:      стандарт 0,1.9,0   →  новое 0,2.4,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_stag']/onscreen_settings/property[@name='offset']/@value">
+        0,2.4,0
+    </set>
+    <!-- Медведь:    стандарт 0,2.2,0   →  новое 0,2.7,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_bear']/onscreen_settings/property[@name='offset']/@value">
+        0,2.7,0
+    </set>
+    <!-- Кабан:      стандарт 0,1.1,0   →  новое 0,1.6,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_boar']/onscreen_settings/property[@name='offset']/@value">
+        0,1.6,0
+    </set>
+    <!-- Койот:      стандарт 0,0.9,0   →  новое 0,1.4,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_coyote']/onscreen_settings/property[@name='offset']/@value">
+        0,1.4,0
+    </set>
+    <!-- Дикий волк: стандарт 0,1.75,0  →  новое 0,2.25,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_direwolf']/onscreen_settings/property[@name='offset']/@value">
+        0,2.25,0
+    </set>
+    <!-- Горный лев: стандарт 0,1.1,0   →  новое 0,1.6,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_mountainlion']/onscreen_settings/property[@name='offset']/@value">
+        0,1.6,0
+    </set>
+    <!-- Змея:       стандарт 0,0.45,0  →  новое 0,1.2,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_snake']/onscreen_settings/property[@name='offset']/@value">
+        0,0.9,0
+    </set>
+    <!-- Волк:       стандарт 0,1.2,0   →  новое 0,1.7,0 -->
+    <set xpath="//nav_object_class[@name='animaltracking_wolf']/onscreen_settings/property[@name='offset']/@value">
+        0,1.7,0
+    </set>
+</configs>

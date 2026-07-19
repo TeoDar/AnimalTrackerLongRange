@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="AnimalTrackerLongRange" />
+	<DisplayName value="Animal Tracker Long Range" />
+	<Description value="Increases on-screen detection distance for Animal Tracker." />
+	<Version value="1.1" />
+	<Author value="TeosDart" />
+</xml>
